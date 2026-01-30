@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>가로배치</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        .menu {
+            display: flex;
+            /* 자식 요소 가로 배치 */
+            gap: 12px;
+            /* disply:flex가 있을때만 활용가능  */
+
+        }
+
+        .menu li {
+            padding: 0 20px;
+            list-style: none;
+            height: 50px;
+            border: solid 1px black;
+            border-radius: 30px;
+            line-height: 50px;
+
+
+        }
+
+        .list {
+            display: flex;
+            gap: 32px;
+        }
+        
+        .list .item p {
+            font-size: 28px;
+            text-align: center;
+            padding-top: 24px;
+            font-weight: bold;
+            }
+            
+
+
+        
+
+        .list .item {
+            width: 432px;
+
+        }
+
+        .list .item img {
+            width: 432px;
+            height: 560px;
+            display: block;
+
+
+        }
+    </style>
+</head>
+
+<body>
+    <ul class="menu">
+        <li>menu 1</li>
+        <li>menu 2</li>
+        <li>menu 3</li>
+        <li>menu 4</li>
+        <li>menu 5</li>
+    </ul><!-- menu -->
+    <div class="list">
+        <div class="item">
+            <img src="img/benjamin-cheng-zrF9DkbjmyU-unsplash.jpg">
+            <p>아이템 1</p>
+
+
+
+        </div>
+        <div class="item">
+            <img src="img/benjamin-cheng-zrF9DkbjmyU-unsplash.jpg">
+            <p>아이템 1</p>
+
+
+
+        </div>
+        <div class="item">
+            <img src="img/benjamin-cheng-zrF9DkbjmyU-unsplash.jpg">
+            <p>아이템 1</p>
+
+
+
+        </div>
+    </div>
+
+
+</body>
+
+</html>

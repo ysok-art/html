@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>여백</title>
+    <style>
+       *{
+        margin: 0;
+        padding: 0;
+    
+       } 
+       div{
+        width: 100px;
+        height: 100px;
+        background-color: bisque;
+       }
+       .margin-1 {
+        margin: 30px;
+    /* 외부여백 : 상하좌우 30px */
+       }
+       .margin-2{
+        margin: 80px 100px;
+        /* 외부여백: 상하80px 좌우100px */
+       }
+        .margin-3{
+            margin: 10px 50px 80px;
+        }
+       .margin-4{
+        margin: 10px 20px 40px 80px ;
+       }
+      .margin-5{
+        margin-top: 10px;
+        margin-left: 50px;
+        margin-right: 100px;
+        margin-bottom: 30px;
+      }
+
+      ul li {
+        width: 100px;
+        background-color: blue;
+        margin: 20px;
+        list-style: none;/* 블릿 없애기 */
+        padding: 20px;
+      }
+    </style>
+</head>
+<body>
+   <div class="margin-1">margin 1</div> 
+   <div class="margin-2">margin 2</div> 
+    <div class="margin-3">margin 3</div>
+    <div class="margin-4">margin 4</div> 
+    <div class="margin-5">margin 5</div>
+
+    <ul>
+        <li>padding 1</li>
+        <li>padding 2</li>
+    </ul>
+
+</body>
+</html>
